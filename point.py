@@ -91,3 +91,5 @@ if __name__ == "__main__":
             found_equal += 1
 
     print(f"probability is 1 in {count/found_equal} ")
+
+
