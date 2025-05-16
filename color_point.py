@@ -1,15 +1,19 @@
 from point import Point # point is the file, Point is the class
 import random
+
 class ColorPoint(Point):
     def __init__(self, x, y, color):
         """
-        Defines a color point x, y, color
+        Initialize a ColorPoint with x, y, and color.
         """
         self.x = x
         self.y = y
         self.color = color
 
     def __str__(self):
+        """
+        Return a string representation of the ColorPoint.
+        """
         return f"<{self.x}, {self.y}>({self.color})"
 
 
